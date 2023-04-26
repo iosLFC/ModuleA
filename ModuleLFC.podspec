@@ -15,19 +15,18 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "ModuleA"
+  spec.name         = "ModuleLFC"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ModuleA."
+  spec.summary      = "test in ModuleLFC"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "test"
 
-  spec.homepage     = "https://github.com/iosLFC/ModuleA"
+  spec.homepage     = "https://github.com/iosLFC/ModuleA.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "lfc" => "18356288298@163.com" }
+  spec.author             = { "iosLFC" => "18356288298@163.com" }
   # Or just: spec.author    = "lfc"
   # spec.authors            = { "lfc" => "lifucheng@hzanchu.com" }
   # spec.social_media_url   = "https://twitter.com/lfc"
@@ -64,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iosLFC/ModuleA", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/iosLFC/ModuleA.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
